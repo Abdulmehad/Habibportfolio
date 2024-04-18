@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Habib Saleem - Portfolio</title>
+    <link rel="stylesheet" href="habib.css"/>
+    <script src="habib.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+             Habib Saleem
+          <div class="contact_info">
+            <img src="envelope.png"/>
+            habibsaleem6565@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +92 321 0001508
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://media1.tenor.com/images/cd37fa49c983ac905df0016fd5b6a2ee/tenor.gif?itemid=13165216" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Habib Saleem! 
+          </h1>
+          <p>
+            Welcome to my digital marketing hub, where I can transform businesses through strategic online solutions.
+             With my expertise in driving targeted traffic, boosting conversions, and enhancing brand visibility,
+             I can empower businesses to thrive in the ever-evolving digital landscape.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="https://th.bing.com/th/id/OIP.9lpcOIihMYWfDBONEHFzeAHaG3?rs=1&pid=ImgDetMain"/>
+          <h6>Fcaebook Compaign</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="https://th.bing.com/th/id/R.4eac7b80e3acbc986f9df92748dc1b3d?rik=UO46fvqFCZn6Aw&pid=ImgRaw&r=0"/>
+            <h6>Google Ads</h6>
+            <p>1 years experience</p>
+          </div>
+
+        <div class="skill">
+          <img src="https://th.bing.com/th/id/R.32f447ed39448529ab1ae0f76e11a058?rik=EhB3UN%2b24%2fQt7g&pid=ImgRaw&r=0"/>
+          <h6>Web development</h6>
+          <p>1 years experience</p>
+        </div> 
+
+        <div class="skill">
+          <img src="https://th.bing.com/th/id/R.5eb1959636a370b661bc91940fe49cee?rik=wSnIGaZT1sIaew&pid=ImgRaw&r=0"/>
+          <h6>Logo Design</h6>
+          <p>1 years experience</p>
+        </div>  
+
+ 
+
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Recipe Reverie - A Blog</h3>
+            <ul>
+              <li>Recipe Reverie is a dynamic online platform dedicated to showcasing a wide range of culinary delights from various cuisines, including American, Indian, Pakistani, and Italian recipes. With a vast collection of mouthwatering dishes, our project aims to inspire and empower cooking enthusiasts to explore and create delicious meals in their own kitchens.</li><br>
+                <li>Our project focuses on providing easy-to-follow recipes that cater to different skill levels, ensuring that both beginners and experienced cooks can find something to suit their taste and culinary preferences. From traditional family favorites to innovative twists on classic dishes, Recipe Reverie offers a diverse selection of recipes to satisfy every palate.</li><br>
+                <li>As a recipe blog, our project goes beyond just sharing recipes. We strive to create a vibrant community of food lovers who can engage, share their experiences, and connect with like-minded individuals. Through our blog, readers can discover helpful cooking tips, ingredient substitutes, and personal anecdotes, fostering a sense of culinary camaraderie and promoting a love for cooking and exploring new flavors.</li>
+            </ul>
+          </div>
+         
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Habib is a very quick learner and quickly grasps key concepts of Facebook compaigns. 
+          He got a great attitude & he is an excellent team player. 
+          He has a curious mind and asks the right question. 
+          He takes initiative within a team and has potentials to lead the team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Habib has been an awesome experience. 
+          He is highly knowledgable and always goes the extra step to make sure everything is right. 
+          For any future projects that need his expertise I would definitely want to work with him again.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had worked along with Habib during the initial phase of our venture which needed Web development. 
+          He is a committed resource who has in depth knowledge about the domain. 
+          He will be an asset for any organisation! 
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>  Thanks for leaving recommendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
